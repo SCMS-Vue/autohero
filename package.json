@@ -1,0 +1,19 @@
+{
+  "name": "autohero",
+  "version": "1.0.0",
+  "description": "Autohero clone, cliend and admin.",
+  "main": "index.js",
+  "author": "James Cuca",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve:client": "cd client && yarn serve",
+    "serve:admin": "cd admin && yarn dev",
+    "build:client": "cd client && yarn surge && cd ../",
+    "build:admin": "cd admin && yarn surge && cd ../",
+    "build": "yarn build:client && yarn build:admin",
+    "copy:client": "@powershell copy client/dist/index.html client/dist/200.html && @powershell copy ./client/CNAME ./client/dist/CNAME && @powershell copy ./client/.htaccess ./client/dist/.htaccess",
+    "copy:admin": "@powershell copy admin/dist/index.html admin/dist/200.html && @powershell copy ./admin/CNAME ./admin/dist/CNAME && @powershell copy ./admin/.htaccess ./admin/dist/.htaccess"
+    
+  }
+}

@@ -1,0 +1,38 @@
+const formdata = {
+  Marke: 'Ford Focus',
+  Modell: '1.5',
+  Modellvariante: 'EcoBoost Business',
+  Getriebe: 'Schaltgetriebe',
+  Kilometerstand: '18.871 km',
+  Erstzulassung: '05.2018',
+  Kraftstoff: 'Benzin',
+  Leistung: '150 PS / 110 kW',
+  'Anzahl Vorbesitzer': '1',
+  Grunddaten: {
+    Herkunftsland: 'Deutschland',
+    Unfallauto: 'Nein',
+    Fahrzeugklasse: 'Limousine',
+    'Letzter Service am': '18.03.2021',
+    'Anzahl Sitzplätze': '5',
+    'Originalmotor': 'Ja',
+    Türen: '5',
+    Farbe: 'Grau',
+    'Anzahl Schlüssel': '2',
+    Hubraum: '1498 ccm',
+    'CO2-Ausstoß': '128 g/km',
+    Verbrauch: {
+      innerorts: '7.1 l/100 km',
+      kombiniert: '5.6 l/100 km',
+      außerorts: '4.7 l/100 km',
+    },
+  },
+  Ausstattung: {
+    Highlights: [],
+    Komfort: [],
+    Multimedia: [],
+    'Licht und Sicht': [],
+    Sicherheit: [],
+    Weiteres: [],
+  },
+  images: []
+}
